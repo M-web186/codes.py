@@ -1,0 +1,14 @@
+customers = [
+    ('moo', 'chips and chicken'),
+    ('claire', 'hamburger'),
+    ('fellow', 'pizza and juice'),
+    ('shano', 'vanilla icecream cone'),
+    ('nelly', 'cold mango juice with ice cubes'),
+    ('kyle', 'chicken with chilli'),
+    ('nyle', 'icecream,strawberry flavour')
+ ]
+for customer,snack in customers:
+    print(f"preparing{snack}...")
+    print(f"order for {customer}!")
+for number, (customer,snack) in enumerate(customers,start=1) :
+    print(f"#{number}. {customer}: {snack}")

@@ -1,0 +1,18 @@
+print("what do you want to do?")
+print('1 addition')
+print("2 subtraction")
+print("3 multiplication")
+print("4 division")
+choice = input("enter your choice:")
+num1 = float(input("enter num2"))
+num2 = float(input("enter num2"))
+if choice == '1':
+    addition(num1,num2)
+elif choice == '2':
+    subtraction(num1,num2)
+elif choice == '3':
+    multiplation(num1,num2)
+elif choice == '4':
+    division(num1,num2)
+else:
+    print("invalid choice")
