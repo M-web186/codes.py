@@ -1,0 +1,12 @@
+customers = [
+      ('moo', 'pizza'),
+      ('jane', 'hamburger'),
+      ('chris', 'fried chicken with spices'),
+      ('alpha' 'chips')
+   ]
+for customer, snack in customers:
+        print(f"making{snack}...")
+        print(f"order for{customer}!")
+ 
+ 
+ 

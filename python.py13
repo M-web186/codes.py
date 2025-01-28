@@ -1,0 +1,7 @@
+books = 12
+cartons = books
+print(books is cartons)
+books += 2
+print(books is cartons)
+print(books)
+print(cartons)
