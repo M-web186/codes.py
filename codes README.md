@@ -1,6 +1,6 @@
 # codes.py
 
-A collection of Python code snippets and examples.
+A collection of Python code and examples.
 
 ## Usage
 
